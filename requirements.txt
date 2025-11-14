@@ -1,0 +1,6 @@
+chromadb
+langchain
+langchain-core
+langchain_community
+langchain-text-splitters
+sentence-transformers
