@@ -127,7 +127,7 @@ def main():
         # Create the QA chain
         qa_chain, retriever = create_qa_chain(vectorstore)
 
-        print("\n--- Ambedkar Q&A System ---")
+        print("\n--- RAG Q&A System ---")
         print("Setup complete. You can now ask questions about the speech.")
         print("Type 'exit' or 'quit' to stop.")
         

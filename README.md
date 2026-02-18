@@ -1,6 +1,6 @@
-# AmbedkarGPT-Intern-Task
+# Local RAG Chatbot
 
-This project is a simple command-line Question & Answering (Q&A) system built as part of an intern task. It uses a Retrieval-Augmented Generation (RAG) pipeline to answer questions based **solely** on a provided speech excerpt from Dr. B.R. Ambedkar's "Annihilation of Caste".
+This project is a simple command-line Question & Answering (Q&A) system built as part of an intern task. It uses a Retrieval-Augmented Generation (RAG) pipeline to answer questions based on a provided text document.
 
 The entire system runs 100% locally, requires no API keys, and uses open-source tools.
 
@@ -34,8 +34,8 @@ Before you begin, you **must** have the following installed:
 ### 2. Clone the Repository
 Clone this public repository to your local machine.
 ```bash
-git clone https://github.com/ashankgupta/AmbedkarGPT-Intern-Task.git
-cd AmbedkarGPT-Intern-Task
+git clone https://github.com/ashankgupta/local-rag-chatbot.git
+cd local-rag-chatbot
 ```
 
 ### 3. Set up a Virtual Environment
@@ -81,7 +81,7 @@ Vector store created and saved to chroma_db.
 Creating RAG chain...
 RAG chain created successfully.
 
---- Ambedkar Q&A System ---
+--- Local Q&A System ---
 Setup complete. You can now ask questions about the speech.
 Type 'exit' or 'quit' to stop.
 
@@ -105,7 +105,7 @@ To stop the program, type exit or quit.
 
 ## Project Structure
 ```bash
-AmbedkarGPT-Intern-Task/
+local-rag-chatbot/
 ├── .git/
 ├── chroma_db/        # (This will be created on first run to store vectors)
 ├── main.py           # (The main Python script)
